@@ -1,9 +1,8 @@
-# Alpha
+# Adam
 
-The Alpha theme is a clean and elegant multi-purpose theme. It provides several options to display your content. Please read below more about the main concepts of this theme.
+The Adam theme is a clean and elegant multi-purpose theme. It provides several options to display your content. Please read below more about the main concepts of this theme.
 
 - [Templates](#templates)
-- [Writing Content](#writing-content)
 - [Pagelist Configuration](#pagelist-configuration)
 - [Title, Navigation, Filtering and Sorting](#title-navigation-filtering-and-sorting)
 - [Logo and Brand](#logo-and-brand)
@@ -11,8 +10,6 @@ The Alpha theme is a clean and elegant multi-purpose theme. It provides several 
 - [Date Formats](#date-formats)
 - [Social Media Cards](#social-media-cards)
 - [Header and Footer Items](#header-and-footer-items)
-- [Slideshows](#slideshows)
-- [Email](#email)
 
 ## Templates
 
@@ -21,24 +18,12 @@ The following templates are included in this theme.
 | Name | Description |
 | ---- | ----------- |
 | Blog | A blog page grid template. Articles are displayed along with their teaser image, date, tags and the first paragraph. |
-| Contact | A simple contact page template including a mail form. |
 | Portfolio | A portfolio page grid template. Projects are displayed along with their teaser image, date and tags. |
 | Post | A blog post template. Related pages are displayed below the main content. |
 | Project | A project page template. Related pages are displayed below the main content. |
 | Sidebar Left | A multi-purpose template with a navigation sidebar on the left. |
 | Sidebar Right | A multi-purpose template with a navigation sidebar on the right. |
 | Simple | A simple and basic page template. |
-
-## Writing Content
-
-There are two ways of writing content using this theme &mdash; **Blocks** and **Markdown** formatted text. 
-Please note that in case the **+Main** blocks variable has any content, the Markdown variables **Text** and **Text Teaser** are ignored! They only serve as an alternative and fallback content. 
-
-| Name | Description |
-| ---- | ----------- |
-| +Main | The main content block area. |
-| Text | An alternative content variable. It is only displays as long as the +Main variable is empty. |
-| Text Teaser | An alternative teaser variable. It is only displayed as long as the +Main variable is empty. |
 		
 ## Pagelist Configuration
 
@@ -94,15 +79,8 @@ All labels, button text, placeholders and notification texts can be overriden or
 | Label Sort Date Desc | Label text in dropdown for sorting pages by date descending. |
 | Label Sort Title Asc | Label text in dropdown for sorting pages by title ascending. |
 | Label Sort Title Desc | Label text in dropdown for sorting pages by title descending. |
-| Label Send Mail | Label for the send button of an email form. |
-| Notification Mail Error | Notification text for errors when sendig an email form. |
-| Notification Mail Success | Notification text after successfully sending email. |
 | Notification No Search Results | Notification text for an empty list of search results. |
-| placeholder Email | Placeholder text for email input field. |
-| placeholder Message | Placeholder text for the message body field. |
 | placeholder Search | Placeholder text for the search field of the main menu. |
-| placeholder Subject | Placeholder text for the subject input field. |
-| Placeholder Search | Placeholder text for the search field of the main menu. |		
 
 ## Date Formats
 
@@ -132,16 +110,3 @@ Sometimes it is required to add custom Javascript or CSS to one or more pages. T
 | ---- | ----------- |
 | Items Header | Items to be inserted before the closing `</head>` tag. |
 | Items Footer | Items to be inserted before the closing `</body>` tag. |
-
-## Slideshows
-
-As described before, it is either possible to used the block editor or the traditional Markdown editor to create content. Since the markdown editor is not able to create content like a slideshow, there are two separate variables available for project pages and posts to insert a slideshow right after the teaser when using Markdown.
-
-| Name | Description |
-| ---- | ----------- |
-| Images Slideshow | One or more glob patterns to define the images showing up in the slideshow. |
-| Slideshow Height | The relative height of the slideshow depending on the width. |
-
-## Email
-
-To enable receiving emails via the contact form, an valid email address has to be entered into the `email` field of a contact page.

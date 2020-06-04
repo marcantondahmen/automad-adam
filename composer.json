@@ -1,0 +1,19 @@
+{
+	"name": "dahmen/automad-adam",
+	"description": "An elegant multi-purpose theme for Automad",
+	"type": "automad-package",
+	"keywords": [
+		"theme"
+	],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Marc Anton Dahmen",
+			"homepage": "https://marcdahmen.de"
+		}
+	],
+	"require": {
+		"automad/package-installer": "^1.1",
+		"automad/meta-tags": "^1.1"
+	}
+}

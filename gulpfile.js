@@ -1,4 +1,14 @@
-/* Standard Themes */
+/*
+ *	Adam
+ *  Automad Theme
+ *
+ *	Copyright (c) 2020 by Marc Anton Dahmen
+ *	http:/marcdahmen.de
+ *
+ *  MIT license
+ */
+
+
 var gulp = require('gulp'),
 	autoprefixer = require('gulp-autoprefixer'),
 	cleanCSS = require('gulp-clean-css'),

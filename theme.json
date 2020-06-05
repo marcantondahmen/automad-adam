@@ -39,6 +39,8 @@
 		"ogImage": "A glob pattern to select a preview image for Twitter, Facebook or similar social network cards. This could be for example `*.png, *.jpg`",
 		"placeholderSearch": "Placeholder text for the search field of the main menu",
 		"showPagesBelow": "Define an alternative URL to be used as the pagelist's parent page, instead of the current one",
+		"sortPagelist": "Sorting of the pages in a portfolio or blog pagelist. Note that the sorting and filtering buttons should be hidden in case this variable is defined! The default is 'date desc'. You can choose any other page variable in combination with an order (asc or desc) like ':path asc'.",
+		"sortRelatedPages": "Sorting of the pagelist with related pages. The default is 'date desc'. You can choose any other page variable in combination with an order (asc or desc).",
 		"urlTagLinkTarget": "The target URL of the pagelist page for the tag buttons",
 		"urlSearchResults": "The URL of the pagelist page to show the search results"
 	}

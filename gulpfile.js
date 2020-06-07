@@ -51,21 +51,6 @@ gulp.task('adam-js', function() {
 		pkgUIkit = require('./node_modules/uikit/package.json');
 	
 
-
-
-
-// 
-
-
-
-
-
-
-
-
-
-
-
 	return 	merge2(
 			gulp.src([
 				'node_modules/jquery/dist/jquery.min.js',
@@ -100,18 +85,15 @@ gulp.task('adam-js', function() {
 			gulp.src([
 				'node_modules/sticky-sidebar/dist/sticky-sidebar.min.js'
 			]),
-			gulp.src([
-				'../../automad/gui/js/scroll_position.js'
-			])
-			.pipe(uglify(uglifyOptions)),
 			remoteSrc([
-					'autocomplete.js', 
-					'masonry.js',
-					'modal.js', 
-					'pagination.js', 
-					'sidebar.js'
+					'automad/gui/js/scroll_position.js',
+					'packages/standard/js/autocomplete.js', 
+					'packages/standard/js/masonry.js',
+					'packages/standard/js/modal.js', 
+					'packages/standard/js/pagination.js', 
+					'packages/standard/js/sidebar.js'
 				], {
-					base: 'https://raw.githubusercontent.com/marcantondahmen/automad/1.5.1/packages/standard/js/'
+					base: 'https://raw.githubusercontent.com/marcantondahmen/automad/1.5.1/'
 			})
 			.pipe(uglify(uglifyOptions))
 		)

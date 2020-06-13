@@ -2,6 +2,8 @@
 
 The Adam theme is a clean and elegant multi-purpose theme. It provides several options to display your content. Please read below more about the main concepts of this theme.
 
+![](https://raw.githubusercontent.com/marcantondahmen/media-files/master/themes/adam/sidebar-left.png)
+
 - [Templates](#templates)
 - [Pagelist Configuration](#pagelist-configuration)
 - [Title, Navigation, Filtering and Sorting](#title-navigation-filtering-and-sorting)
@@ -24,7 +26,10 @@ The following templates are included in this theme.
 | Sidebar Left | A multi-purpose template with a navigation sidebar on the left. |
 | Sidebar Right | A multi-purpose template with a navigation sidebar on the right. |
 | Simple | A simple and basic page template. |
-		
+
+![](https://raw.githubusercontent.com/marcantondahmen/media-files/master/themes/adam/portfolio-full-height.png)
+![](https://raw.githubusercontent.com/marcantondahmen/media-files/master/themes/adam/project.png)
+
 ## Pagelist Configuration
 
 This theme offers multiple options and two templates &mdash; **Blog** and **Portfolio** &mdash; to create pagelists. The following options can be used to control the content of such a pagelist. Pagelist templates can also be used to create a search results page.

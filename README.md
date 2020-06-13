@@ -1,6 +1,6 @@
 # Adam
 
-The Adam theme is a clean and elegant multi-purpose theme. It provides several options to display your content. Please read below more about the main concepts of this theme.
+The Adam theme is a clean and elegant multi-purpose theme for the [Automad](https://automad.org) CMS. It provides several options to display your content. Please read below more about the main concepts of this theme. Check out the demo page and all available templates [here](https://adam.dev.automad.org).
 
 ![](https://raw.githubusercontent.com/marcantondahmen/media-files/master/themes/adam/sidebar-left.png)
 

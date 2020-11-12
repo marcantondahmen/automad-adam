@@ -119,10 +119,10 @@ gulp.task('adam-less', function() {
 // Watch task.
 gulp.task('watch', function() {
 
-	gulp.watch('less/*.less', ['adam-less']);
+	gulp.watch('less/*.less', gulp.series('adam-less'));
 	
 });
 
 
 // The default task.
-gulp.task('default', ['adam-js', 'adam-less']);
+gulp.task('default', gulp.series('adam-js', 'adam-less'));

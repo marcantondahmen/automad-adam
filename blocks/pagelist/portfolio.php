@@ -1,11 +1,11 @@
 <?php defined('AUTOMAD') or die('Direct access not permitted!'); ?>
-<section <@~ if @{ :pagelistCount } > 2 @> class="am-stretched"<@ end @>>
+<section <@~ if @{ :pagelistDisplayCount } > 2 @> class="am-stretched"<@ end @>>
 	<div class="masonry">
 		<@ foreach in pagelist ~@>
 			<div class="masonry-item">
 				<div class="uk-height-1-1 uk-panel uk-panel-box">
 					<div class="masonry-content">
-						<@~ set_imageteaser_variable.php @>
+						<@~ ../../snippets/set_imageteaser_variable.php @>
 						<@~ if @{ :imageTeaser } @>
 							<div class="uk-panel-teaser">
 								<a href="@{ url }"><img src="@{ :imageTeaser }"></a>
@@ -14,12 +14,12 @@
 						<div class="uk-panel-title uk-margin-bottom-remove">
 							<a href="@{ url }">@{ title }</a>
 							<div class="text-subtitle">
-								<@ date.php @>
+								<@ ../../snippets/date.php @>
 								<@ if @{ date } and @{ tags } @><br><@ end @>
-								<@ tags.php @>
+								<@ ../../snippets/tags.php @>
 							</div>
 						</div>
-						<@ more.php @>
+						<@ ../../snippets/more.php @>
 					</div>
 				</div>
 			</div>

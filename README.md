@@ -37,7 +37,7 @@ This theme offers multiple options and two templates &mdash; **Blog** and **Port
 | Name | Description | Scope |
 | ---- | ----------- | ----- |
 | Show All Pages In Pagelist | If checked, the pagelist includes all pages instead of just the direct children. | - |
-| Filter Pagelist By Url | Filters the pagelist by URLs matching a given regular expression like for example `(/portfolio|/blog)`. | - |
+| Filter Pagelist By Url | Filters the pagelist by URLs matching a given regular expression. | - |
 | Notification No Search Results | The notification text for empty search results. | Shared |
 | Items Per Page | The maximum number of pages to be displayed in a pagelist at once. In case there are more pages to be shown, a pagination navigation will show up below automatically. | - |
 | Show Pages Below | Show only direct children of a custom local URL like `/custom/page` | - |

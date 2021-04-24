@@ -1,5 +1,5 @@
 <?php defined('AUTOMAD') or die('Direct access not permitted!'); ?>
-<section <@~ if @{ :pagelistDisplayCount } > 2 @> class="am-stretched"<@ end @>>
+<section <@~ if @{ :pagelistDisplayCount } > 2 @> class="stretched"<@ end @>>
 	<div class="masonry">
 		<@ foreach in pagelist ~@>
 			<div class="masonry-item">

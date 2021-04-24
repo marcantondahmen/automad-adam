@@ -55,24 +55,4 @@
 
 	}
 
-	.stretched & {
-
-		margin: 0 (@utility-container-padding-horizontal - @masonry-item-padding);
-
-		&-item {
-			padding: @masonry-item-padding;
-		}
-
-		@media (min-width: @breakpoint-xlarge) {
-		
-			margin: 0 (@utility-container-large-padding-horizontal - @masonry-item-padding-large);
-			
-			&-item {
-				padding: @masonry-item-padding-large;
-			}
-		
-		}
-		
-	}
-
 }

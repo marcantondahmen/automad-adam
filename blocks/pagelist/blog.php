@@ -8,20 +8,20 @@
 						<div class="uk-panel-title">
 							<a href="@{ url }" class="nav-link">@{ title }</a>
 							<div class="text-subtitle">
-								<@ ../../snippets/date.php @>
+								<@ ../../elements/date.php @>
 								<@ if @{ date } and @{ tags } @><br><@ end @>
-								<@ ../../snippets/tags.php @>
+								<@ ../../elements/tags.php @>
 							</div>
 						</div>
-						<@~ ../../snippets/set_imageteaser_variable.php @>
+						<@~ ../../elements/set_imageteaser_variable.php @>
 						<@ if @{ :imageTeaser } ~@>
 							<div class="uk-panel-teaser">
 								<a href="@{ url }"><img src="@{ :imageTeaser }"></a>
 							</div>
 						<@~ end @>
-						<@~ ../../snippets/set_teaser_variable.php @>
+						<@~ ../../elements/set_teaser_variable.php @>
 						<p class="content uk-margin-bottom-remove">@{ :teaser }</p>
-						<@ ../../snippets/more.php @>
+						<@ ../../elements/more.php @>
 					</div>
 				</div>	
 			</div>

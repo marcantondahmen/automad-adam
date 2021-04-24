@@ -1,5 +1,5 @@
 <?php defined('AUTOMAD') or die('Direct access not permitted!'); ?>
-<@ snippets/header.php @>
+<@ elements/header.php @>
 	<div class="content uk-block">
 		<p class="uk-margin-top uk-margin-bottom">
 			<svg class="bi bi-exclamation-triangle" width="5em" height="5em" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
@@ -16,4 +16,4 @@
 			<a href="/" class="uk-button">Back Home</a>
 		</div>
 	</div>
-<@ snippets/footer.php @>
+<@ elements/footer.php @>

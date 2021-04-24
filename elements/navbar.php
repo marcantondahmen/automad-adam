@@ -62,7 +62,7 @@
 								<@~ if @{ urlSearchResults } @>
 									<div class="uk-block uk-margin-bottom-remove uk-margin-top-remove">
 										<form 
-										class="uk-form" 
+										class="uk-form am-block" 
 										action="@{ urlSearchResults }" 
 										method="get"
 										>
@@ -85,7 +85,9 @@
 									</div>
 								<@ end ~@>
 								<div class="uk-block @{ :classNav }">
-									<@ tree.php @>
+									<div class="am-block">
+										<@ tree.php @>
+									</div>
 								</div>
 							</div>
 						</div>

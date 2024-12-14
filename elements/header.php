@@ -5,9 +5,11 @@
 	<@ set { :version: '<?php echo AM_VERSION; ?>' } @>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>@{ metaTitle | def('@{ sitename } / @{ title | def ("404") }') }</title>
-	<@ metatags.php @>
-	<@ favicons.php @>
+	<?php if (substr(AM_VERSION, 0, 1) == '1') { ?>
+		<title>@{ metaTitle | def('@{ sitename } / @{ title | def ("404") }') }</title>
+		<@ elements/metatags.php @>
+		<@ elements/favicons.php @>
+	<?php } ?>
 	<# 
 	
 	To make sure the following variables are always available in the dashboard, 

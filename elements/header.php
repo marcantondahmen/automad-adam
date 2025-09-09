@@ -24,6 +24,6 @@
 	@{ itemsHeader }
 </head>
 
-<body class="@{ theme | sanitize } @{ :template | sanitize }">
+<body class="@{ theme | sanitize } @{ :template | def(@{ template }) | sanitize }">
 	<@ navbar.php @>
 	<div class="uk-container uk-container-center navbar-push">

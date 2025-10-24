@@ -8,14 +8,12 @@
  *  MIT license
  */
 
-
-@breakpoint-small:	480px;
-@breakpoint-medium:	768px;
-@breakpoint-large:	1220px;
-@breakpoint-xlarge:	1420px;
+@breakpoint-small: 480px;
+@breakpoint-medium: 768px;
+@breakpoint-large: 1220px;
+@breakpoint-xlarge: 1420px;
 
 :root {
-
 	// Container
 	--am-block-max-width: @block-max-width;
 	--am-block-margin-top: 2em;
@@ -31,12 +29,19 @@
 	--am-gallery-z-index: 9999;
 	--am-gallery-max-height: 100%;
 	--am-gallery-max-width: 100%;
-	--am-gallery-background: #FFFFFF;
+	--am-gallery-background: #ffffff;
 	--am-gallery-controls-color: @base-body-color;
-	--am-gallery-controls-background: rgba(255,255,255,0.3);
+	--am-gallery-controls-background: rgba(255, 255, 255, 0.3);
 
 	// Slider
 	--am-slider-controls-color: var(--am-gallery-controls-color);
 	--am-slider-controls-background: var(--am-gallery-controls-background);
 
+	// Table
+	--am-table-cell-padding: 0.55em 0.7em 0.55em 0;
+	--am-table-border: none;
+	--am-table-border-horizontal: 1px solid var(--am-border-color);
+	--am-table-border-header-horizontal: 2px solid var(--am-border-color);
+	--am-table-heading-font-weight: 600;
 }
+

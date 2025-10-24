@@ -8,11 +8,9 @@
  *  MIT license
  */
 
-
 .content {
-	
 	[id]:target:before {
-		content: '';
+		content: "";
 		display: block;
 		height: 6rem;
 		margin-top: -6rem;
@@ -22,53 +20,23 @@
 	& ol:not([class]) li a,
 	& ul:not([class]) li a,
 	& p a:not([class]) {
-		
 		color: inherit;
 		border-bottom: 1px solid;
 		text-decoration: none !important;
 		padding-bottom: 0.03rem;
-		
+
 		&:hover {
 			border-color: @border-color;
 		}
-		
 	}
-	
+
 	& em {
 		color: inherit;
 	}
-	
+
 	& strong,
 	& b {
 		font-weight: 700;
-	}
-
-	& table {
-
-		box-sizing: content-box;
-		width: 100%;
-		border-collapse: collapse;
-		text-align: left;
-
-		& th,
-		& tr {
-			padding: 0.5rem;
-			padding-left: 0;
-			font-weight: inherit;
-			border-bottom: 1px solid @border-color;
-			vertical-align: top;
-		}
-
-		& th {
-			font-weight: 500;
-			border-bottom-width: 2px;
-			white-space: nowrap !important;
-		}
-
-		& tr:last-child th {
-			border: none;
-		}
-
 	}
 
 	& code {
@@ -80,26 +48,23 @@
 		color: @code-color;
 		background-color: @panel-bg-color;
 	}
-	
+
 	& pre {
-		
 		margin: 1.43rem 0;
 		padding: 0;
 		font-size: 1em;
 		line-height: 1.5;
 		border-radius: @radius;
 		background-color: @panel-bg-color;
-		
+
 		& > code {
 			display: inline-block;
 			padding: 1.4rem 1.5rem;
 			font-size: inherit;
 		}
-		
 	}
 
 	& blockquote {
-
 		border: none;
 		padding-left: 0;
 		margin-bottom: 0.75rem;
@@ -107,14 +72,17 @@
 		line-height: 1.45;
 
 		& + figcaption:before {
-			content: '\2014';
+			content: "\2014";
 			padding-right: 0.75rem;
-		} 
-
+		}
 	}
 
-	img {
+	& img {
 		min-width: 100%;
 	}
-	
+
+	& details summary {
+		display: list-item;
+	}
 }
+
